@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build && next export -o dist"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "name": "nextjs-news-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Long Tran <nhulongctk10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}
